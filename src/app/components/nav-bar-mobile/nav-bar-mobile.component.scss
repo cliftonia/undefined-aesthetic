@@ -26,6 +26,10 @@ button {
   border-radius: 6px;
 }
 
+button:focus {
+  outline: 0;
+}
+
 @media only screen and (min-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
