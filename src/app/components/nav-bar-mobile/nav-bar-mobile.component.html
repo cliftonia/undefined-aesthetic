@@ -1,0 +1,12 @@
+<div class="nav__container__mobile">
+  <button mat-button [matMenuTriggerFor]="menu">Select Page</button>
+  <div class="menu__container">
+    <mat-menu class="matMenu" #menu="matMenu">
+      <button mat-menu-item><a class="button" routerLink="/about">About</a></button>
+      <button mat-menu-item><a class="button" routerLink="/work">Work</a></button>
+      <button mat-menu-item><a class="button" routerLink="/">Undefined Aesthetic</a></button>
+      <button mat-menu-item><a class="button" routerLink="/projects">Projects</a></button>
+      <button mat-menu-item><a class="button" routerLink="/contact">Contact</a></button>
+    </mat-menu>
+  </div>
+</div>
