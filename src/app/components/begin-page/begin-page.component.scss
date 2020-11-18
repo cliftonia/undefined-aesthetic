@@ -1,0 +1,39 @@
+@import "./node_modules/aesthetic-css/src/variables";
+
+p {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: 'VT323', monospace;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'VT323', monospace;
+}
+
+button {
+  font-family: 'VT323', monospace;
+}
+
+.begin_page__container {
+  height: 100vh;
+  background-color: black;
+}
+
+.main__heading {
+  color: white;
+  font-family: 'VT323', monospace;
+}
+
+.begin_page__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-between;
+}
+

@@ -5,11 +5,12 @@ import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { WorkComponent } from './components/work/work.component';
+import {BeginPageComponent} from './components/begin-page/begin-page.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: BeginPageComponent
   },
   {
     path: 'about',
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+  {
+    path: 'home',
+    component: HomeComponent
   }
 ];
 
