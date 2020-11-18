@@ -12,6 +12,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavBarMobileComponent } from './components/nav-bar-mobile/nav-bar-mobile.component';
 import { MatMenuModule} from '@angular/material/menu';
+import { CountdownModule } from 'ngx-countdown';
+import { BeginPageComponent } from './components/begin-page/begin-page.component';
 
 @NgModule({
   declarations: [
@@ -22,13 +24,15 @@ import { MatMenuModule} from '@angular/material/menu';
     WorkComponent,
     ProjectsComponent,
     ContactComponent,
-    NavBarMobileComponent
+    NavBarMobileComponent,
+    BeginPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatMenuModule
+    MatMenuModule,
+    CountdownModule
   ],
   providers: [],
   bootstrap: [AppComponent]
