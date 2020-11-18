@@ -14,6 +14,7 @@ import { NavBarMobileComponent } from './components/nav-bar-mobile/nav-bar-mobil
 import { MatMenuModule} from '@angular/material/menu';
 import { CountdownModule } from 'ngx-countdown';
 import { BeginPageComponent } from './components/begin-page/begin-page.component';
+import { SnakeGameComponent } from './components/snake-game/snake-game.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BeginPageComponent } from './components/begin-page/begin-page.component
     ProjectsComponent,
     ContactComponent,
     NavBarMobileComponent,
-    BeginPageComponent
+    BeginPageComponent,
+    SnakeGameComponent
   ],
   imports: [
     BrowserModule,
