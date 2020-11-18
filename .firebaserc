@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "undefined-aesthetic"
+  },
+  "targets": {
+    "undefined-aesthetic": {
+      "hosting": {
+        "undefined-aesthetic": [
+          "undefined-aesthetic"
+        ]
+      }
+    }
+  }
+}
